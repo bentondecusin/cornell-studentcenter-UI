@@ -1,0 +1,22 @@
+{
+  "name": "Cornell Student Center Better UI",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Makes Student Center looks better",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "matches": ["https://css.adminapps.cornell.edu/*", "file:///*"], 
+      "js": ["background.js"],
+      "css" : ["styles.css"]
+    }
+  ]
+}

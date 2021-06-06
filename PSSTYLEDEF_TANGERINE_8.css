@@ -1,3 +1,5 @@
+
+
 .portlet-form-button,.portlet-form-label,.PT_RATBOXCHART,.PT_RATBOX_ICONONLY_MARGIN,.PSHEADERTOOLBARFRAME,.PSIMAGE,.PSNOIMAGE,.PSPAGECONTAINER,.PSSTATICIMAGE,.RESET{}
 .EOPP_SCCHILDINDENT{background-color:rgb(0,255,0);}
 .LEVEL1{background-color:rgb(153,153,102);}
@@ -53,7 +55,16 @@
 .portlet-form-field,.LEVEL2,.LEVEL3{background-repeat:repeat-y;}
 .PSQRYTABLELEFTBORDER{border-left-width:1px;border-left-color:rgb(230,230,230);border-left-style:solid;}
 .PSACESHDV{border-right-width:1px;border-right-color:rgb(213,220,238);border-right-style:solid;}
-.PABACKGROUNDINVISIBLE,.PAFRAMELEVEL1NBO,.PAFRAMELEVEL2NBO,.PAFRAMELEVEL3NBO,.PAGROUPBOXLEVEL1NBO,.PAGROUPBOXLEVEL2NBO,.PAGROUPBOXLEVEL3NBO,.PSFRAMECONFIRMNBO,.PSFRAMENBO,.PSLEVEL1GRIDNBO,.PSLEVEL2GRIDNBO,.PSLEVEL3GRIDNBO,.PTPAGELET{border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;}
+
+/**
+  The entire area that shows information
+*/
+.PABACKGROUNDINVISIBLE,.PAFRAMELEVEL1NBO,.PAFRAMELEVEL2NBO,.PAFRAMELEVEL3NBO,.PAGROUPBOXLEVEL1NBO,.PAGROUPBOXLEVEL2NBO,.PAGROUPBOXLEVEL3NBO,.PSFRAMECONFIRMNBO,.PSFRAMENBO,.PSLEVEL1GRIDNBO,.PSLEVEL2GRIDNBO,.PSLEVEL3GRIDNBO,.PTPAGELET{
+  border-top-style:none;
+  border-bottom-style:none;
+  border-left-style:none;
+  border-right-style:none;
+}
 .PSRIGHTLEFTSCROLL{border-top-width:0px;border-bottom-width:0px;border-style:solid;}
 .PSHORIZONTALRULE{border-top-width:1px;border-bottom-width:0px;border-left-width:0px;border-right-width:0px;border-top-color:rgb(187,187,187);border-top-style:solid;border-bottom-style:none;border-left-style:none;border-right-style:none;height:1px;}
 .PT_ORGCHART_CONNECT2{border-top-width:1px;border-left-width:1px;border-top-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-top-style:solid;border-bottom-style:none;border-left-style:solid;border-right-style:none;}
@@ -106,12 +117,26 @@
 .PTNAVSEARCHLABEL{font-family:Arial,Helvetica;font-size:8pt;font-weight:bold;color:rgb(0,0,0);background-color:rgb(211,220,232);padding-top:3px;padding-bottom:1px;padding-left:2px;}
 .portlet-menu-caption{font-family:Arial,Helvetica;font-size:8pt;font-weight:bold;color:rgb(0,0,0);background-color:rgb(211,220,232);text-align:left;padding-top:3px;padding-bottom:1px;padding-left:2px;}
 .PTNAVLINK,.PTNAVLINK:ACTIVE,.PTNAVLINK:VISITED{font-family:Arial,Helvetica;font-size:9pt;color:rgb(0,48,117);text-decoration: underline;}
-.PAXHYPERLINKHOVER,.PSHYPERLINKHOVER,.PSQRYHYPERLINKHOVER,.PSHYPERLINK:HOVER,.PSHYPERLINKNOUL:HOVER,.PSHYPERLINKNOULBOLD:HOVER,.PSNAVPARENTLINK:HOVER,.PSRALEFTWIDGET:HOVER,.PSRARIGHTWIDGET:HOVER,.PSSRCHRESULTSEVENROW:HOVER,.PSSRCHRESULTSODDROW:HOVER,.PTNAVLINK:HOVER,.PSQRYHYPERLINK:HOVER{font-family:Arial,Helvetica;font-size:9pt;color:rgb(171,91,26);text-decoration: underline;line-height:100%;}
+.PAXHYPERLINKHOVER,.PSHYPERLINKHOVER,.PSQRYHYPERLINKHOVER,.PSHYPERLINK:HOVER,.PSHYPERLINKNOUL:HOVER,.PSHYPERLINKNOULBOLD:HOVER,.PSNAVPARENTLINK:HOVER,.PSRALEFTWIDGET:HOVER,.PSRARIGHTWIDGET:HOVER,.PSSRCHRESULTSEVENROW:HOVER,.PSSRCHRESULTSODDROW:HOVER,.PTNAVLINK:HOVER,.PSQRYHYPERLINK:HOVER{
+  font-family:Arial,Helvetica;
+  font-size:9pt;
+  color:rgb(171,91,26);
+  text-decoration: underline;
+  line-height:100%;
+
+}
 .PTNAVSELCHILDLINK,.PTNAVSELPARENTLINK{font-family:Arial,Helvetica;font-size:9pt;color:rgb(255,255,255);text-decoration: none;}
 .portlet-menu-item-selected{font-family:Arial,Helvetica;font-size:9pt;color:rgb(255,255,255);text-decoration: none;text-indent:3px;}
 .PSNAVPARENTLINK,.PSNAVPARENTLINK:VISITED{font-family:Arial,Helvetica;font-size:9pt;color:rgb(52,52,52);text-decoration: none;}
 .portlet-menu-item{font-family:Arial,Helvetica;font-size:9pt;color:rgb(74,89,140);text-decoration: underline;}
-.PAXHYPERLINKACTIVE,.PSHYPERLINKACTIVE,.PSHYPERLINK:ACTIVE,.PSHYPERLINKNOUL:ACTIVE,.PSHYPERLINKNOULBOLD:ACTIVE,.PSNAVPARENTLINK:ACTIVE,.PSRALEFTWIDGET:ACTIVE,.PSRARIGHTWIDGET:ACTIVE,.PSSRCHRESULTSEVENROW:ACTIVE,.PSSRCHRESULTSHYPERLINK:ACTIVE,.PSSRCHRESULTSODDROW:ACTIVE{font-family:Arial,Helvetica;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(0,75,145);line-height:100%;}
+.PAXHYPERLINKACTIVE,.PSHYPERLINKACTIVE,.PSHYPERLINK:ACTIVE,.PSHYPERLINKNOUL:ACTIVE,.PSHYPERLINKNOULBOLD:ACTIVE,.PSNAVPARENTLINK:ACTIVE,.PSRALEFTWIDGET:ACTIVE,.PSRARIGHTWIDGET:ACTIVE,.PSSRCHRESULTSEVENROW:ACTIVE,.PSSRCHRESULTSHYPERLINK:ACTIVE,.PSSRCHRESULTSODDROW:ACTIVE{
+  font-family:Arial,Helvetica;
+  font-size:9pt;
+  font-weight:normal;
+  font-style:normal;
+  color:rgb(0,75,145);
+  line-height:100%;
+}
 .PT_MCFGRAYTEXT{font-family:Arial,Sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(60,60,60);}
 .PT_ORGCHART_LEGEND{font-family:Arial,Verdana,sans-serif;font-size:11px;font-weight:normal;font-variant:normal;color:rgb(51,51,51);background-repeat:repeat-y;background-position:right top;text-align:center;padding-left:10px;padding-right:5px;}
 .PTBREADCRUMB{font-family:Arial,helvetica,sans-serif;font-size:9pt;font-weight:normal;color:rgb(43,124,146);text-decoration: underline;}
@@ -126,8 +151,19 @@
 .PSSRCHGROUPBOXLABEL{font-family:Arial,sans-serif;font-size:10pt;font-weight:bold;font-style:normal;color:rgb(171,91,26);background-color:rgb(241,245,246);text-indent:1px;border-width:1px;border-color:rgb(40,66,119);border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;}
 .PSLEVEL1GRIDLABEL,.PSLEVEL2GRIDLABEL,.PSLEVEL3GRIDLABEL{font-family:Arial,sans-serif;font-size:10pt;font-weight:bold;font-style:normal;color:rgb(171,91,26);background-color:rgb(241,245,246);text-indent:1px;padding-top:0.75px;padding-bottom:0.75px;padding-left:2px;padding-right:0.75px;border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;}
 .PAGROUPDIVIDER{font-family:Arial,sans-serif;font-size:10pt;font-weight:bold;font-style:normal;color:rgb(171,91,26);background-color:rgb(241,245,246);text-indent:1px;padding-top:1px;padding-bottom:3px;padding-left:5px;border-width:1px;border-color:rgb(201,206,213);border-style:solid;height:22px;}
-.PSGROUPBOXLABEL{font-family:Arial,sans-serif;font-size:10pt;font-weight:bold;font-style:normal;color:rgb(171,91,26);background-color:rgb(241,245,246);text-indent:1px;padding-top:1px;padding-bottom:3px;padding-left:5px;border-width:1px;border-color:rgb(201,206,213);border-style:solid;height:auto;}
-.PSLEVEL1SCROLLAREAHEADER,.PSLEVEL2SCROLLAREAHEADER,.PSLEVEL3SCROLLAREAHEADER{font-family:Arial,sans-serif;font-size:10pt;font-weight:bold;font-style:normal;color:rgb(171,91,26);background-color:rgb(241,245,246);text-indent:1px;padding:0.5px;}
+
+/* Bars. Academics, etc. */
+.PSGROUPBOXLABEL {
+  height:auto;
+  padding: 0px 0px 0px 6px;
+  background-color: #eee;
+  border-width: 0px 0px 0px 6px;
+  border-left: 6px solid #b31b1b;
+  color: #222222;
+  font-size: 20pt;
+}
+
+  .PSLEVEL1SCROLLAREAHEADER,.PSLEVEL2SCROLLAREAHEADER,.PSLEVEL3SCROLLAREAHEADER{font-family:Arial,sans-serif;font-size:10pt;font-weight:bold;font-style:normal;color:rgb(171,91,26);background-color:rgb(241,245,246);text-indent:1px;padding:0.5px;}
 .PT_MCFTABLEHEADER1{font-family:Arial,sans-serif;font-size:10pt;font-weight:bold;font-style:normal;color:rgb(52,52,52);background-color:rgb(186,208,231);background-position:640px;text-align:left;}
 .PTSESRSLTRLTDINFO{font-family:Arial,sans-serif;font-size:10pt;font-weight:normal;color:rgb(28,81,128);cursor:hand;}
 .PAGROUPBOXLABELLEVEL1,.PAGROUPBOXLABELLEVEL2,.PAGROUPBOXLABELLEVEL3{font-family:Arial,sans-serif;font-size:10pt;font-weight:normal;font-style:normal;color:rgb(171,91,26);background-color:rgb(241,245,246);text-indent:5px;border-width:1px;border-color:rgb(230,230,230);border-style:solid;}
@@ -211,7 +247,15 @@
 .PSPGCHARTFILTERNAME_NARO{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(0,0,0);background-color:rgb(255,255,255);vertical-align:top;text-align:right;margin-top:2px;width:60px;height:17px;display:inline-block;overflow:hidden;}
 .CU_EDIT_DISPONLY_BOLDUNDER{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(0,0,0);text-decoration: underline;border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;}
 .portlet-msg-info{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(0,0,196);}
-.PSHYPERLINKYELLOWBKGRD,.PSTREENODESELECTED,.PSTREELINKSELECTED,.PSTREELINKSELECTEDYELLOWBACKGR{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(102,102,102);text-decoration: none;}
+.PSHYPERLINKYELLOWBKGRD,.PSTREENODESELECTED,.PSTREELINKSELECTED,.PSTREELINKSELECTEDYELLOWBACKGR{
+  font-family:Arial,sans-serif;
+  font-size:9pt;font-weight:bold;
+  font-style:normal;
+  color:rgb(102,102,102);
+  text-decoration: none;
+  display: none;
+
+}
 .CU_TEXTBOLD_PURLE{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(160,32,240);}
 .PSLEVEL1GRIDLABELTP,.PSLEVEL2GRIDLABELTP,.PSLEVEL3GRIDLABELTP{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(171,91,26);text-indent:1px;line-height:100%;padding-top:0.75px;padding-bottom:0.75px;padding-left:2px;padding-right:0.75px;border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;}
 .PAERRORTEXT{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(204,0,51);}
@@ -347,7 +391,21 @@
 .PACALENDARDAYNUMDISABLED{font-family:Arial;font-size:11pt;font-weight:bold;font-style:normal;color:rgb(0,0,0);}
 .PACALENDARDAYNUM{font-family:Arial;font-size:11pt;font-weight:bold;font-style:normal;color:rgb(58,90,135);}
 .PABOLD11TEXT{font-family:Arial;font-size:11pt;font-weight:bold;font-style:normal;color:rgb(81,81,81);}
-.PATRANSACTIONTITLE{font-family:Arial;font-size:11pt;font-weight:normal;font-style:normal;color:rgb(68,101,144);padding-bottom:3px;border-bottom-width:1px;border-bottom-color:rgb(187,187,187);border-bottom-style:solid;width:100%;display:inline-block;}
+
+/* xxx's student center*/
+.PATRANSACTIONTITLE{
+  padding: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+  font-size: 15pt;
+  color: #222222;
+  border-bottom-width:1px;
+  border-bottom-color:#222222;
+  border-bottom-style:solid;
+  width:100%;
+  display:inline-block;
+}
+
 .PALEVEL0PRIMARY{font-family:Arial;font-size:11pt;font-weight:normal;font-style:normal;color:rgb(81,81,81);}
 .PT_RATBOX_LABEL{font-family:Arial;font-size:11px;font-weight:bold;color:rgb(117,117,108);white-space:nowrap;}
 .PTSRCHRSLTLABEL,.PTSRCHRSLTLABELDISABLED{font-family:Arial;font-size:12pt;font-weight:bold;color:rgb(68,101,144);}
@@ -966,7 +1024,6 @@ text-decoration:none;
 
 
 .pttabhelpimg {
-border-style: none;
 border:0;
 margin:0;
 margin-right:4px;
@@ -2918,14 +2975,15 @@ border-left:none;
    border-left:1px solid #e6e6e6;
 }
 
-.PABACKGROUNDINVISIBLENBO .PSGRIDFIRSTCOLUMN { border-left: medium none;}
+.PABACKGROUNDINVISIBLENBO .PSGRIDFIRSTCOLUMN {
+   border-left: medium none;}
 .PAADDITIONALINSTRUCTIONSDISABLED
 {
+  
 color:#515151;
 }
 .PSCOMPONENTHYPERLINK
 {
-border-style: none;
     color: #004b91;
     font-family: Arial,sans-serif;
     font-size: 9pt;
@@ -3068,16 +3126,31 @@ color: #515151;
     text-decoration: none;
 }
 
-.PSHYPERLINK, .PSHYPERLINK:link, .PSHYPERLINK:visited, .PSHYPERLINKNOUL:link, .PSHYPERLINKNOUL:visited, .PSSRCHRESULTSEVENROW:link, .PSSRCHRESULTSEVENROW:visited, .PSSRCHRESULTSODDROW:link, .PSSRCHRESULTSODDROW:visited {
-    border-style: none;
-    color: #004b91;
-    font-family: Arial,sans-serif;
-    font-size: 9pt;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 100%;
-	text-decoration:none;
+/* Visible links*/
+a.PSHYPERLINK, a.PSHYPERLINK:link, .PSHYPERLINK:visited, .PSHYPERLINKNOUL:link, .PSHYPERLINKNOUL:visited, .PSSRCHRESULTSEVENROW:link, .PSSRCHRESULTSEVENROW:visited, .PSSRCHRESULTSODDROW:link, .PSSRCHRESULTSODDROW:visited{
+  color: #F7F7F7;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 100px;
+  width: 1000px;
+  font-size: 14pt;
+  padding: 5px;
+  align-content: center;
+
 }
+a.PSHYPERLINK:hover, a.PSHYPERLINK:link:hover, .PSHYPERLINK:visited:hover, .PSHYPERLINKNOUL:link:hover, .PSHYPERLINKNOUL:visited:hover, .PSSRCHRESULTSEVENROW:link:hover, .PSSRCHRESULTSEVENROW:visited:hover, .PSSRCHRESULTSODDROW:link:hover, .PSSRCHRESULTSODDROW:visited:hover{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 100px;
+  width: 1000px;
+  font-size: 16pt;
+  padding: 5px;
+  color: #F7F7F7;
+
+}
+
+
+
 .PSLEVEL1GRIDLABELTP a:hover
 {
 text-decoration:underline;
@@ -4238,7 +4311,7 @@ background-color: #FFFFFF;
   padding-top:2px;
   padding-left:5px;
   margin:0px;
-  //width:100%;
+  width:100%;
 }
 
 
@@ -8069,8 +8142,9 @@ html[dir="rtl"] .oj-menu-item > a {
 }
 .pt_classic_plus .PATRANSACTIONTITLE 
 {
-	font-size: 19.8px;
-	font-family : Arial,Helvetica,sans-serif ;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+  font-size: 15pt;
 }
 
 
@@ -9180,13 +9254,6 @@ html[dir="rtl"] .oj-menu-item > a {
 
 .pt_classic_plus .PAGROUPDIVIDER, .pt_classic_plus .PSGROUPBOXLABEL
 {
-	background: #fff;
-	border: none;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16.1333px;
-	font-weight: bold;
-	color: #a45617;
-	padding: 0px;
 }
 
 .pt_classic_plus .PAGROUPDIVIDER img, .pt_classic_plus .PSGROUPBOXLABEL img
@@ -10483,5 +10550,82 @@ html[dir="rtl"] .oj-menu-item > a {
 	background-color: rgb(235,235,235);
 }
 
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif
+}
 
 
+
+/*Search, Plan, Enroll, My Academics*/
+div[id*="DERIVED_SSS_SCR_SSS_LINK"] {
+  color: #F7F7F7;
+  height: 25px;
+  width: 230px;
+  font-size: 20px;
+  padding: 10px 0 10px 10px;
+  margin: 10px 0 0 20px;
+  align-items: center;
+  text-align: left;
+  background-color: rgba(62,163,207,0.8);
+  text-shadow: 0 1px 0 rgb(0 0 0 / 50%);
+  border-radius: 25px;
+  z-index: 10;
+}
+
+/* Select Other Academics*/
+select[id*="ACA"] {
+  display: inline-block;
+  vertical-align: middle;
+  border: none;
+  height: 45px !important;
+  width: 240px !important;
+  padding: 12px 0 10px 10px;
+  margin: 5px 0 0 18px;
+  color: #F7F7F7;
+  font-size: 19px;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgba(62,163,207,0.8);
+  text-shadow: 0 1px 0 rgb(0 0 0 / 50%);
+  border-radius: 25px;
+}
+/* Go button */
+div[id*="GO_1"]{
+  position: absolute;
+  margin: 17px 0px 0 260px;
+}
+/* * {
+  width: max-content
+}
+html {
+  margin: 0;
+}
+*#ptifrmtarget{
+  width: max-content !important;
+}
+iframe {
+  width: max-content !important;
+} */
+*[width]{
+  width: max-content;
+  align-items: center;
+}
+*[height]{
+  display: none;
+}
+option{
+  background-color: rebeccapurple;
+}
+/* all td*/
+td > div {
+  height: auto;
+  width: auto;
+  /* border: red 1px solid; */
+}
+
+
+tr {
+  border: blue 1px solid;
+}

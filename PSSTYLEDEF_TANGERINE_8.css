@@ -10536,6 +10536,7 @@ html[dir="rtl"] .oj-menu-item > a {
   color: #222222;
   font-size: 20pt;
 }
+
 /* Visible links*/
 a.PSHYPERLINK, a.PSHYPERLINK:link, .PSHYPERLINK:visited, .PSHYPERLINKNOUL:link, .PSHYPERLINKNOUL:visited, .PSSRCHRESULTSEVENROW:link, .PSSRCHRESULTSEVENROW:visited, .PSSRCHRESULTSODDROW:link, .PSSRCHRESULTSODDROW:visited{
   color: white;
@@ -10570,7 +10571,40 @@ a.PSHYPERLINK:hover, a.PSHYPERLINK:link:hover, .PSHYPERLINK:visited:hover, .PSHY
   z-index: 10;
 }
 
+
+/* Left Section */
+table#ACE_DERIVED_SSS_SCL_.PABACKGROUNDINVISIBLE > tbody > tr:nth-of-type(4) > tr{
+  display: flex;
+  flex-direction: row;
+}
+
+/* Academic Section*/
+table[id*="ACAD_INFO"] > tbody {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 800px;
+}
+
+/* The buttoms below */
+table[id*="ACAD_INFO"] .PABACKGROUNDINVISIBLEWBO table.PABACKGROUNDINVISIBLE[role="presentation"] > tbody:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+}
+
 /*Search, Plan, Enroll, My Academics*/
+table[id*="ACAD_INFO"] .PSGROUPBOX > tbody {  
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  justify-content: space-around;
+}
+table[id*="ACAD_INFO"] .PSGROUPBOX .PABACKGROUNDINVISIBLE > tr{
+  display: flex;
+  flex-direction: row;
+}
 div[id*="DERIVED_SSS_SCR_SSS_LINK"] {
   /* font-size: 20px;
   padding: 5px 20px 5px 20px;
@@ -10580,27 +10614,6 @@ div[id*="DERIVED_SSS_SCR_SSS_LINK"] {
   text-shadow: 0 1px 0 rgb(0 0 0 / 50%);
   border-radius: 25px;
   z-index: 10;  */
-}
-
-/* Academic Section*/
-table[id*="ACAD_INFO"] > tbody {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  width: 800px;
-}
-/* The buttoms below */
-table[id*="ACAD_INFO"] .PSGROUPBOX > tbody{
-  display: flex;
-  flex-direction: row;
-  width: 800px;
-  justify-content: space-around
-}
-table[id*="ACAD_INFO"] .PSGROUPBOX .PABACKGROUNDINVISIBLE > tr{
-  display: flex;
-  flex-direction: row;
 }
 
 /* Select Other Academics*/
@@ -10629,13 +10642,24 @@ table[id*="STDNT_WEEK_SCHD"]{
 }
 
 /* Weekly sechdule*/
-table[id*="ACAD_INFO"] table[id*="ACE"] > tbody > tr:nth-of-type(5) {
-  float: left ;
-  width: 400px;
+table[id*="ACAD_INFO"] tbody td table[id*="ACE"] > tbody> tr:nth-of-type(5) {
+  float:left ;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+/* Exclude my_academics*/
+table[id*="ACAD_INFO"] tbody > tr:nth-of-type(3) > td table[id*="ACE"] > tbody> tr:nth-of-type(5) {
+  background-color: transparent;
+  float:none ;
+  width: max-content;
+  border-bottom: none;
 }
 /* Enrollment Shopping Cart*/
-table[id*="ACAD_INFO"] table[id*="ACE"] > tbody > tr:nth-of-type(5) {
-  width: 400px;
+table[id*="ACAD_INFO"]   table[id*="ACE"] > tbody > tr:nth-of-type(6) {
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -10661,10 +10685,12 @@ html {
 }
 *#ptifrmtarget{
   width: max-content !important;
-}
-iframe {
-  width: max-content !important;
 } */
+body body {
+  margin-left: 100px;
+  margin-right: 100px;
+  width: max-content !important;
+}
 
 *[width]{
   width: max-content;
@@ -10680,15 +10706,20 @@ option{
 /* all td*/
 td > div {
   height: auto;
-  border: red 1px solid;
+  /* border: red 1px solid; */
 }
 
 tr {
-  border: blue 1px solid;
+  /* border: blue 1px solid; */
+}
+
+tr:empty{
+  background-color: red;
 }
 
 /* Right Section, Holds, To Do List, etc. */
 table#ACE_DERIVED_SSS_SCL_.PABACKGROUNDINVISIBLE > tbody > tr:nth-of-type(5) {
   background-color: rebeccapurple;
+  float: inline-end;  
   z-index: 10;
 }

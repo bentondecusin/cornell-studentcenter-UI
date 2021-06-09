@@ -16,7 +16,8 @@
       "all_frames": true,
       "matches": ["https://css.adminapps.cornell.edu/*", "file:///*"], 
       "js": ["background.js"],
-      "css" : ["styles.css"]
+      "css" : ["styles.css","PSSTYLEDEF_TANGERINE_8.css"],
+      "sass" :["styles.sass"]
     }
   ]
 }

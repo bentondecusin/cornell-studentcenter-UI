@@ -48,21 +48,26 @@ a {
   font-size: 15pt;
 }
 
-/* tr > td {
+/* div#ptifrmtarget > iframe#ptifrmtgtframe {
+  background-color: #000;
+  width: 100% !important;
+}
+
+tr > td {
   width: 100%;
 } */
 
 /* Entire Page that has useful information*/
-td > div#win0divDERIVED_SSS_SCL_ > *,
+/* td > div#win0divDERIVED_SSS_SCL_ > *,
 table#ACE_DERIVED_SSS_SCL_ > * {
   width: 1000px;
-}
+} */
 
 /* Header ***'s Student Center */
 table#ACE_DERIVED_SSS_SCL_.PABACKGROUNDINVISIBLE > tbody > tr:nth-of-type(2) {
   width: 100%;
   font-size: large;
-  background-color: aqua;
+  /* background-color: aqua; */
   z-index: 8;
 }
 
@@ -72,13 +77,13 @@ table#ACE_DERIVED_SSS_SCL_.PABACKGROUNDINVISIBLE > tbody > tr:nth-of-type(2) * {
 
 /* Left Section, Academics, Finances, etc. */
 table#ACE_DERIVED_SSS_SCL_.PABACKGROUNDINVISIBLE > tbody > tr:nth-of-type(4) {
-  background-color: blue;
+  /* background-color: blue; */
   z-index: 9;
 }
 
 /* Right Section, Holds, To Do List, etc. */
 table#ACE_DERIVED_SSS_SCL_.PABACKGROUNDINVISIBLE > tbody > tr:nth-of-type(5) {
-  background-color: rebeccapurple;
+  /* background-color: rebeccapurple; */
   z-index: 10;
 }
 

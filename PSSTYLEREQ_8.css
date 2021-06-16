@@ -1,30 +1,37 @@
-* {
-  font-size: large;
+.PTPOPUP_INNER{
+  background-color:rgb(255,255,255);
+  border-width:1px;
+  border-color:rgb(74,89,140);
+  border-style:solid;  
+}
+.PTPOPUP_HEADER{
+  background-image:url(/cs/cuselfservice/cache/NEW_PORTAL_HDR_TBR_1.gif);}
+.PTPOPUP_MSGHDR{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(0,0,0);word-spacing:normal;display:block;}
+
+.PTPOPUP_MSGTXT{
+  font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(60,60,60);word-spacing:normal;display:block;
 }
 
-.PTPOPUP_INNER{background-color:rgb(255,255,255);border-width:1px;border-color:rgb(74,89,140);border-style:solid;}
-.PTPOPUP_HEADER{background-image:url(/cs/cuselfservice/cache/NEW_PORTAL_HDR_TBR_1.gif);}
-.PTPOPUP_MSGHDR{font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;font-style:normal;color:rgb(0,0,0);word-spacing:normal;display:block;}
-.PTPOPUP_MSGTXT{font-family:Arial,sans-serif;font-size:9pt;font-weight:normal;font-style:normal;color:rgb(60,60,60);word-spacing:normal;display:block;}
-.PTPOPUP_TITLE{font-family:Arial;font-size:10pt;font-weight:bold;font-style:normal;color:rgb(255,255,255);padding:10px;}
-.ic  
+.PTPOPUP_TITLE{
+  font-family:Arial;font-size:10pt;font-weight:bold;font-style:normal;color:rgb(255,255,255);padding:10px;}
+
+  .ic  
 {
 Z-INDEX:1000;
 position:absolute;
 background-color:transparent
 }
-
-
-
     
 .PT_ACETREE  
 {
+
 color:rgb(0,0,0);
 background:#FFFFFF;
 border:1px solid #78ACFF;
 position:absolute;
 overflow-Y: auto;
 Z-INDEX:2000;
+
 }
 
 .PT_ACELINK
@@ -37,7 +44,7 @@ Z-INDEX:2000;
 
  font-family:Arial,sans-serif;font-size:8pt;
 
- 
+
 
 }
 

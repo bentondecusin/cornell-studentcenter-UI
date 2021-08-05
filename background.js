@@ -24,33 +24,35 @@
 //   characterData: true,
 // });
 
-function rmEmpty(node, depth) {
-  if (node.children.length != 0)
-    for (child of node.children) {
-      rmEmpty(child, depth + 1);
-    }
-  console.log(depth);
-  if (
-    node.children.length == 0 &&
-    node.tagName != "A" &&
-    node.tagName == "SPAN" &&
-    node.tagName == "SCRIPT"
-  ) {
-    console.log(node, node.children);
-    node.remove();
-  }
-}
+// function rmEmpty(node, depth) {
+//   if (node == undefined) return;
+//   console.log(depth, node);
+//   for (i = 0; i < node.children.length; i++) {
+//     rmEmpty(node.children[i], depth + 1);
+//   }
+//   if (
+//     node.children.length == 0 &&
+//     (node.tagName == "TD" || node.tagName == "TR")
+//   )
+//     node.remove();
+// }
 
 for (node of document.getElementsByTagName("td")) {
+  if (node == undefined) continue;
   if (node.children.length == 0 && node.innerText == "") {
-    console.log(node, node.children);
     node.remove();
   }
 }
 
 for (node of document.getElementsByTagName("tr")) {
+  if (node == undefined) continue;
   if (node.children.length == 0 && node.innerText == "") {
     console.log(node, node.children);
     node.remove();
   }
 }
+
+console.log(
+  document.getElementsByTagName("td").length,
+  document.getElementsByTagName("tr").length
+);

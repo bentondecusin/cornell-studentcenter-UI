@@ -75,7 +75,7 @@ table#ACE_DERIVED_SSS_SCL_.PABACKGROUNDINVISIBLE > tbody > tr:nth-of-type(2) {
 }
 
 table#ACE_DERIVED_SSS_SCL_.PABACKGROUNDINVISIBLE > tbody > tr:nth-of-type(2) * {
-  width: 1000px;
+  /* width: 1000px; */
 }
 
 /* Left Section, Academics, Finances, etc. */
@@ -104,39 +104,40 @@ table#ACE_DERIVED_SSS_SCL_.PABACKGROUNDINVISIBLE > tbody > tr:nth-of-type(5) {
 /* Clickable links e.g. Search, My academics */
 div > span.PTUNDERLINE,
 td > div > span.PSHYPERLINK > * {
-  color: #b31b1b;
+  /* color: #b31b1b;
   font-size: 20px;
   margin-top: 2px;
   margin-bottom: 2px;
-  height: 25px;
+  height: 25px; */
 }
 
 .PTUNDERLINE:hover,
 .PSHYPERLINK:hover {
-  font-size: 20px;
+  /* font-size: 20px;
   color: #000;
   opacity: 0.5;
-  z-index: 10;
+  z-index: 10; */
 }
 
 /* Bar of a section e.g. Holds */
 div > .PSGROUPBOXWBO {
-  border-width: 0px 0px 0px 0px;
+  /* border-width: 0px 0px 0px 0px;
   width: 300px;
-  float: right;
+  float: right; */
 }
 tr > .PSGROUPBOXLABEL {
+  /* display: flex;
+  flex-direction: row;
   background-color: #eee;
   border-width: 0px 0px 0px 6px;
-  border-left: 6px solid var(--redDark)
-
+  border-left: 6px solid var(--redDark);
   color: #222222;
-  font-size: 20pt;
+  font-size: 20pt; */
 }
 
 /* Whole section, eg. Academics section*/
 div > table.PSGROUPBOXNBO {
-  width: 800px;
+  /* width: 800px; */
 }
 
 .PABACKGROUNDINVISIBLE {
@@ -150,4 +151,9 @@ div > .PTCOLLAPSE_ARROW > * {
 
 /* Academic info*/
 td > div#win0divDERIVED_SSS_SCL_SS_ACAD_INFO_LINK {
+}
+
+img {
+  height: 20px;
+  width: 20px !important;
 }
